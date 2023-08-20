@@ -22,7 +22,7 @@ h1{
     left: 23%;
     box-shadow: 4px 4px 6px 4px #aaa29b;
 }
-input{
+#input{
     position: relative;
     top: 20px;
     left: 230px;
@@ -40,7 +40,7 @@ input{
     color: #563367;
     border-style: none;
 }
-p,#mark,#remove{
+p,input,button{
     display: inline-block;
     position: relative;
     top: 40px;
@@ -49,11 +49,14 @@ p{
     color: #fff;
     text-align: center;
 }
-#mark{
+input{
     position: relative;
     left: 50px;
 }
-#remove{
+button{
     position: relative;
     left: 30px;
+}
+ul{
+    list-style-type: none;
 }
