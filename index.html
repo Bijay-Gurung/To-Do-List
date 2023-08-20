@@ -12,9 +12,13 @@
         <div class="toDoList">
             <input type="text" placeholder="add you task" id="input">
             <button onclick="add()" id="add"><i class="fa-solid fa-plus"></i></button> <br>
-            <input type="checkbox" id="mark">
-            <p id="display">Be a Billionare.</p>
-            <button onclick="remove()" id="remove"><i class="fa-solid fa-trash"></i></button>
+
+            <div class="task">
+                <input type="checkbox" id="mark" onclick="check()">
+                <p id="display">Be a Billionare.</p>
+                <button onclick="remove()" id="remove"><i class="fa-solid fa-trash"></i></button>
+            </div>
+            
         </div>
     </div>
     <script src="https://kit.fontawesome.com/4f9d824da5.js" crossorigin="anonymous"></script>
