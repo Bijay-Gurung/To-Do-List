@@ -47,15 +47,16 @@ p,input,button{
 }
 p{
     color: #fff;
-    text-align: center;
+    position: relative;
+    left: 37%;
 }
 input{
     position: relative;
-    left: 50px;
+    left: 30%;
 }
 button{
     position: relative;
-    left: 30px;
+    left: 44%;
 }
 ul{
     list-style-type: none;

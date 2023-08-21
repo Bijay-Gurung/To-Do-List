@@ -33,7 +33,6 @@ function check(){
 }
 
 function remove(){
-    let li = event.target.parentNode;
-    li.remove();
-
+    let listItem = this.parentNode;
+    listItem.parentNode.removeChild(listItem);
 }
