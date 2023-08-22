@@ -61,3 +61,85 @@ button{
 ul{
     list-style-type: none;
 }
+@media only screen and (min-width:320px) and (max-width:480px){
+    .toDoList {
+        height: 338px;
+        width: 232px;
+        position: relative;
+        left: 13%;
+    }
+
+    #input{
+        position: relative;
+        left: 50px;
+    }
+    #add{
+        position:relative;
+        left: 54px;
+    }
+    input{
+        position: relative;
+        left:3%;
+    }
+    p{
+        position: relative;
+        left: 15px;
+        font-size: small;
+    }
+    button{
+        position: relative;
+        left: 12%;
+    }
+}
+@media only screen and (min-width:360px) and (max-width:640px){
+    h1{
+        position: relative;
+        top: 39px;
+    }
+    #input{
+        width: 54%;
+    }
+    .toDoList{
+        height: 419px;
+        width: 283px;
+        position: relative;
+        top: 81px;
+        left: 10%;
+    }
+    input{
+        position: relative;
+        left: 2%;
+    }
+    p{
+        position: relative;
+        left: 9px;
+        font-size: large;
+    }
+    button{
+        position: relative;
+        left: 6%;
+    }
+}
+@media only screen and (min-width:375px) and (max-width:667px){
+    #input{
+        width: 55%;
+    }
+    p{
+        position: relative;
+        left: 12px;
+        font-size: large;
+    }
+    button{
+        position: relative;
+        left: 6%;
+    }
+}
+@media only screen and (min-width:414px) and (max-width:896px){
+    .toDoList{
+        height: 586px;
+        width: 311px;
+    }
+    p{
+        font-size: larger;
+    }
+}
